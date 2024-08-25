@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Simple Markers</title>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+    <link rel="stylesheet" href="style.css">
+   
+  </head>
+   <body>
+    <div class="container">
+      <h1>select your location</h1>
+      <!-- Dropdown Menu -->
+      <div class="dropdown">
+        <label for="positionSelect">Choose a location:</label>
+        
+        <select id="positionSelect">
+            <option value="">--Select location--</option>
+            <option value="Mansoura">Mansoura</option>
+            <option value="Giza">Giza</option>
+            <option value="Cairo">Cairo</option>
+            <option value="luxor">luxor</option>
+            <option value="Behaira">Behaira</option>
+        </select>
+      </div>
+    
+    <!-- Display Selected Position -->
+      <p>Your selected position is: <span id="selectedPosition">None</span></p>
+      <div id="map"></div>
+    </div>  
+    <script src="main.js"></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB41DRUbKWJHPxaFjMAwdrzWzbVKartNGg&callback=initMap&v=weekly"
+      defer
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,71 @@
+
+#map {
+    height: 100%;
+  }
+
+  /* 
+* Optional: Makes the sample page fill the window. 
+*/
+ 
+  body {
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  .container{
+    width: 90%;
+    margin: auto;
+
+  }
+  #map {  
+    width: 70%;
+    height: 70%;
+ margin: auto;
+
+  }
+  .dropdown {
+    margin-bottom: 20px;
+}
+
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+
+#positionSelect {
+    width: 100%;
+    padding-top: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+}
+
+#positionSelect:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+}
+
+#selectedPosition {
+    font-weight: bold;
+    color: #007bff;
+}
+label{
+    margin-bottom: 30px;
+    font-size: 20px;
+
+}
